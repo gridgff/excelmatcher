@@ -128,7 +128,7 @@ namespace ExcelMatcher
 
             if (networkCodeCol == -1 || accountCol == -1 || ipcountCol == -1)
             {
-                throw new Exception("Required columns not found in Лист1. Need 'Сетевой код' and 'Учетная запись'.");
+                throw new Exception("Required columns not found in Лист1. Need 'Сетевой код' and 'Учетная запись' and 'IP'.");
             }
 
             
@@ -191,7 +191,8 @@ namespace ExcelMatcher
                     {
                         FIO = record1.FIO,
                         Email = record1.Email,
-                        NetworkCode = matchingRecord.NetworkCode
+                        NetworkCode = matchingRecord.NetworkCode,
+                        Ip = matchingRecord.Ip
                     });
                 }
             }
@@ -256,8 +257,9 @@ namespace ExcelMatcher
     {
         public string NetworkCode { get; set; }
         public string Account { get; set; }
-        public string Ip { get; set; }
+
         public string Username { get; set; }
+        public string Ip { get; set; }
     }
 
     class MatchedRecord
