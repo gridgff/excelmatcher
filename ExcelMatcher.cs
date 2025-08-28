@@ -116,16 +116,17 @@ namespace ExcelMatcher
             int colCount = sheet.Dimension.Columns;
 
             
-            int networkCodeCol = -1, accountCol = -1;
+            int networkCodeCol = -1, accountCol = -1, ipcountCol = -1;
 
             for (int col = 1; col <= colCount; col++)
             {
                 string header = sheet.Cells[1, col].Text.Trim();
                 if (header == "Сетевой код") networkCodeCol = col;
                 if (header == "Учетная запись") accountCol = col;
+                if (header == "IP") ipcountCol = col;
             }
 
-            if (networkCodeCol == -1 || accountCol == -1)
+            if (networkCodeCol == -1 || accountCol == -1 || ipcountCol == -1)
             {
                 throw new Exception("Required columns not found in Лист1. Need 'Сетевой код' and 'Учетная запись'.");
             }
@@ -135,13 +136,14 @@ namespace ExcelMatcher
             {
                 string networkCode = sheet.Cells[row, networkCodeCol].Text.Trim();
                 string account = sheet.Cells[row, accountCol].Text.Trim();
-
-                if (!string.IsNullOrEmpty(networkCode) && !string.IsNullOrEmpty(account))
+                string ip = sheet.Cells[row, ipcountCol].Text.Trim();
+                if (!string.IsNullOrEmpty(networkCode) && !string.IsNullOrEmpty(account) && !string.IsNullOrEmpty(ip))
                 {
                     data.Add(new Sheet2Record
                     {
                         NetworkCode = networkCode,
                         Account = account,
+                        Ip = ip,
                         Username = ExtractUsernameFromAccount(account)
                     });
                 }
@@ -210,7 +212,8 @@ namespace ExcelMatcher
                 // Add headers
                 worksheet.Cells[1, 1].Value = "ФИО";
                 worksheet.Cells[1, 2].Value = "Почта";
-                worksheet.Cells[1, 3].Value = "Сетевой код";
+                worksheet.Cells[1, 3].Value = "Имя компьютера";
+                worksheet.Cells[1, 4].Value = "IP";
 
                 // Style headers
                 using (var range = worksheet.Cells[1, 1, 1, 3])
@@ -226,6 +229,7 @@ namespace ExcelMatcher
                     worksheet.Cells[i + 2, 1].Value = data[i].FIO;
                     worksheet.Cells[i + 2, 2].Value = data[i].Email;
                     worksheet.Cells[i + 2, 3].Value = data[i].NetworkCode;
+                    worksheet.Cells[i + 2, 4].Value = data[i].Ip;
                 }
 
                 // Auto-fit columns
@@ -252,6 +256,7 @@ namespace ExcelMatcher
     {
         public string NetworkCode { get; set; }
         public string Account { get; set; }
+        public string Ip { get; set; }
         public string Username { get; set; }
     }
 
@@ -260,5 +265,6 @@ namespace ExcelMatcher
         public string FIO { get; set; }
         public string Email { get; set; }
         public string NetworkCode { get; set; }
+        public string Ip { get; set; }
     }
 }
