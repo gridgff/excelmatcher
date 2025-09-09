@@ -1,0 +1,5 @@
+/home/cheetos/vs/pwdreset/bin/Release/net8.0/win-x64/publish/pwd.exe
+/home/cheetos/vs/pwdreset/bin/Release/net8.0/win-x64/publish/pwd.dll
+/home/cheetos/vs/pwdreset/bin/Release/net8.0/win-x64/publish/pwd.deps.json
+/home/cheetos/vs/pwdreset/bin/Release/net8.0/win-x64/publish/pwd.runtimeconfig.json
+/home/cheetos/vs/pwdreset/bin/Release/net8.0/win-x64/publish/pwd.pdb

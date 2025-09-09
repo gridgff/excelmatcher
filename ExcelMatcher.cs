@@ -210,13 +210,13 @@ namespace ExcelMatcher
             {
                 var worksheet = outputPackage.Workbook.Worksheets.Add("Matched Results");
 
-                // Add headers
+                
                 worksheet.Cells[1, 1].Value = "ФИО";
                 worksheet.Cells[1, 2].Value = "Почта";
                 worksheet.Cells[1, 3].Value = "Имя компьютера";
                 worksheet.Cells[1, 4].Value = "IP";
 
-                // Style headers
+                
                 using (var range = worksheet.Cells[1, 1, 1, 3])
                 {
                     range.Style.Font.Bold = true;
@@ -224,7 +224,7 @@ namespace ExcelMatcher
                     range.Style.Fill.BackgroundColor.SetColor(System.Drawing.Color.LightGray);
                 }
 
-                // Add data
+                
                 for (int i = 0; i < data.Count; i++)
                 {
                     worksheet.Cells[i + 2, 1].Value = data[i].FIO;
@@ -233,10 +233,10 @@ namespace ExcelMatcher
                     worksheet.Cells[i + 2, 4].Value = data[i].Ip;
                 }
 
-                // Auto-fit columns
+                
                 worksheet.Cells[worksheet.Dimension.Address].AutoFitColumns();
 
-                // Save the file
+                
                 outputPackage.SaveAs(new FileInfo(outputFilePath));
             }
 
@@ -245,7 +245,7 @@ namespace ExcelMatcher
         }
     }
 
-    // Data classes
+    
     class Sheet1Record
     {
         public string FIO { get; set; }

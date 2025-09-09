@@ -1,0 +1,30 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExcelMatcher", "ExcelMatcher.csproj", "{091B356A-EC0A-B189-5740-4670B14690FE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "pwd", "pwdreset\pwd.csproj", "{CE735806-829C-D707-3EEC-6BD9246C1DCF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{091B356A-EC0A-B189-5740-4670B14690FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{091B356A-EC0A-B189-5740-4670B14690FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{091B356A-EC0A-B189-5740-4670B14690FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{091B356A-EC0A-B189-5740-4670B14690FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE735806-829C-D707-3EEC-6BD9246C1DCF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE735806-829C-D707-3EEC-6BD9246C1DCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE735806-829C-D707-3EEC-6BD9246C1DCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE735806-829C-D707-3EEC-6BD9246C1DCF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A6D4C0D2-7E76-4587-973C-807ABB41F23A}
+	EndGlobalSection
+EndGlobal

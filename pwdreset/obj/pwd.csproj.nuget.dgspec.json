@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/cheetos/vs/ExcelMatcher.csproj": {}
+    "/home/cheetos/vs/pwdreset/pwd.csproj": {}
   },
   "projects": {
-    "/home/cheetos/vs/ExcelMatcher.csproj": {
+    "/home/cheetos/vs/pwdreset/pwd.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/cheetos/vs/ExcelMatcher.csproj",
-        "projectName": "ExcelMatcher",
-        "projectPath": "/home/cheetos/vs/ExcelMatcher.csproj",
+        "projectUniqueName": "/home/cheetos/vs/pwdreset/pwd.csproj",
+        "projectName": "pwd",
+        "projectPath": "/home/cheetos/vs/pwdreset/pwd.csproj",
         "packagesPath": "/home/cheetos/.nuget/packages/",
-        "outputPath": "/home/cheetos/vs/obj/",
+        "outputPath": "/home/cheetos/vs/pwdreset/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/cheetos/.nuget/NuGet/NuGet.Config"
@@ -43,16 +43,6 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "dependencies": {
-            "DocumentFormat.OpenXml": {
-              "target": "Package",
-              "version": "[2.20.0, )"
-            },
-            "EPPlus": {
-              "target": "Package",
-              "version": "[7.0.2, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
@@ -64,12 +54,23 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x86",
+              "version": "[8.0.19, 8.0.19]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
           "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/9.0.304/PortableRuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "win-x86": {
+          "#import": []
         }
       }
     }

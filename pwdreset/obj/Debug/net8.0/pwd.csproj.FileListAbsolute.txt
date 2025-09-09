@@ -1,0 +1,14 @@
+/home/cheetos/vs/pwdreset/bin/Debug/net8.0/pwd
+/home/cheetos/vs/pwdreset/bin/Debug/net8.0/pwd.deps.json
+/home/cheetos/vs/pwdreset/bin/Debug/net8.0/pwd.runtimeconfig.json
+/home/cheetos/vs/pwdreset/bin/Debug/net8.0/pwd.dll
+/home/cheetos/vs/pwdreset/bin/Debug/net8.0/pwd.pdb
+/home/cheetos/vs/pwdreset/obj/Debug/net8.0/pwd.GeneratedMSBuildEditorConfig.editorconfig
+/home/cheetos/vs/pwdreset/obj/Debug/net8.0/pwd.AssemblyInfoInputs.cache
+/home/cheetos/vs/pwdreset/obj/Debug/net8.0/pwd.AssemblyInfo.cs
+/home/cheetos/vs/pwdreset/obj/Debug/net8.0/pwd.csproj.CoreCompileInputs.cache
+/home/cheetos/vs/pwdreset/obj/Debug/net8.0/pwd.dll
+/home/cheetos/vs/pwdreset/obj/Debug/net8.0/refint/pwd.dll
+/home/cheetos/vs/pwdreset/obj/Debug/net8.0/pwd.pdb
+/home/cheetos/vs/pwdreset/obj/Debug/net8.0/pwd.genruntimeconfig.cache
+/home/cheetos/vs/pwdreset/obj/Debug/net8.0/ref/pwd.dll

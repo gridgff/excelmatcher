@@ -1,0 +1,14 @@
+/home/cheetos/vs/pwdreset/obj/Release/net8.0/win-x86/pwd.GeneratedMSBuildEditorConfig.editorconfig
+/home/cheetos/vs/pwdreset/obj/Release/net8.0/win-x86/pwd.AssemblyInfoInputs.cache
+/home/cheetos/vs/pwdreset/obj/Release/net8.0/win-x86/pwd.AssemblyInfo.cs
+/home/cheetos/vs/pwdreset/obj/Release/net8.0/win-x86/pwd.csproj.CoreCompileInputs.cache
+/home/cheetos/vs/pwdreset/bin/Release/net8.0/win-x86/pwd.exe
+/home/cheetos/vs/pwdreset/bin/Release/net8.0/win-x86/pwd.deps.json
+/home/cheetos/vs/pwdreset/bin/Release/net8.0/win-x86/pwd.runtimeconfig.json
+/home/cheetos/vs/pwdreset/bin/Release/net8.0/win-x86/pwd.dll
+/home/cheetos/vs/pwdreset/bin/Release/net8.0/win-x86/pwd.pdb
+/home/cheetos/vs/pwdreset/obj/Release/net8.0/win-x86/pwd.dll
+/home/cheetos/vs/pwdreset/obj/Release/net8.0/win-x86/refint/pwd.dll
+/home/cheetos/vs/pwdreset/obj/Release/net8.0/win-x86/pwd.pdb
+/home/cheetos/vs/pwdreset/obj/Release/net8.0/win-x86/pwd.genruntimeconfig.cache
+/home/cheetos/vs/pwdreset/obj/Release/net8.0/win-x86/ref/pwd.dll
