@@ -40,7 +40,7 @@ namespace pwdgen
             //System.Console.WriteLine(stringBuilder2);
             if (RuntimeInformation.IsOSPlatform(OSPlatform.Windows))
             {
-                fp = "C:\\";
+                fp = "C://Dst";
             }
             else if (RuntimeInformation.IsOSPlatform(OSPlatform.Linux))
             {
