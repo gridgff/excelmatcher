@@ -2,6 +2,7 @@ using System;
 using System.Text;
 using System.IO;
 using System.Runtime.InteropServices;
+using System.Diagnostics;
 
 namespace pwdgen
 {
@@ -34,7 +35,7 @@ namespace pwdgen
 
             }
             stringBuilder2.ToString();
-            
+
             string fp = "pwd.txt";
             //System.Console.WriteLine(stringBuilder2);
             if (RuntimeInformation.IsOSPlatform(OSPlatform.Windows))
@@ -47,10 +48,11 @@ namespace pwdgen
             }
             char.ToUpper(stringBuilder2[27]);
             System.Console.WriteLine(stringBuilder2[27]);
-            using (StreamWriter writer = new StreamWriter(fp, false)) // false - перезаписать файл, true - добавить в конец
+            using (StreamWriter writer = new StreamWriter(fp, false))
             {
                 writer.WriteLine($"{stringBuilder2}");
             }
+            Process.Start(new ProcessStartInfo(fp){ UseShellExecute =true});
         }
     }
 }

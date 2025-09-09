@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("pwd")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bb2062b3e14da279ada776047a1d69f1fbb07ab1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+728514074500e10dce4a528b377a037494a06162")]
 [assembly: System.Reflection.AssemblyProductAttribute("pwd")]
 [assembly: System.Reflection.AssemblyTitleAttribute("pwd")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
