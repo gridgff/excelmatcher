@@ -4,6 +4,8 @@ using System.IO;
 using System.Runtime.InteropServices;
 using System.Diagnostics;
 
+
+
 namespace pwdgen
 {
     class Program
@@ -40,11 +42,12 @@ namespace pwdgen
             //System.Console.WriteLine(stringBuilder2);
             if (RuntimeInformation.IsOSPlatform(OSPlatform.Windows))
             {
-                fp = "C://Dst";
+                fp = "C:\\Dst";
             }
             else if (RuntimeInformation.IsOSPlatform(OSPlatform.Linux))
             {
-                fp = "/home/cheetos/vs/pwdreset/pwd.txt";
+                string username = Environment.UserName;
+                fp = $"/home/{username}/vs/pwdreset/pwd.txt";
             }
             char.ToUpper(stringBuilder2[27]);
             System.Console.WriteLine(stringBuilder2[27]);

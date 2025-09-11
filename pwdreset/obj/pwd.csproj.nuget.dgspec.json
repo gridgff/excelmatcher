@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/home/cheetos/vs/pwdreset/pwd.csproj": {}
+    "/home/cheetosyan/vs/excelmatcher/pwdreset/pwd.csproj": {}
   },
   "projects": {
-    "/home/cheetos/vs/pwdreset/pwd.csproj": {
+    "/home/cheetosyan/vs/excelmatcher/pwdreset/pwd.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/cheetos/vs/pwdreset/pwd.csproj",
+        "projectUniqueName": "/home/cheetosyan/vs/excelmatcher/pwdreset/pwd.csproj",
         "projectName": "pwd",
-        "projectPath": "/home/cheetos/vs/pwdreset/pwd.csproj",
-        "packagesPath": "/home/cheetos/.nuget/packages/",
-        "outputPath": "/home/cheetos/vs/pwdreset/obj/",
+        "projectPath": "/home/cheetosyan/vs/excelmatcher/pwdreset/pwd.csproj",
+        "packagesPath": "/home/cheetosyan/.nuget/packages/",
+        "outputPath": "/home/cheetosyan/vs/excelmatcher/pwdreset/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/cheetos/.nuget/NuGet/NuGet.Config"
+          "/home/cheetosyan/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"

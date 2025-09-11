@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/home/cheetos/vs/ExcelMatcher.csproj": {}
+    "/home/cheetosyan/vs/excelmatcher/ExcelMatcher.csproj": {}
   },
   "projects": {
-    "/home/cheetos/vs/ExcelMatcher.csproj": {
+    "/home/cheetosyan/vs/excelmatcher/ExcelMatcher.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/cheetos/vs/ExcelMatcher.csproj",
+        "projectUniqueName": "/home/cheetosyan/vs/excelmatcher/ExcelMatcher.csproj",
         "projectName": "ExcelMatcher",
-        "projectPath": "/home/cheetos/vs/ExcelMatcher.csproj",
-        "packagesPath": "/home/cheetos/.nuget/packages/",
-        "outputPath": "/home/cheetos/vs/obj/",
+        "projectPath": "/home/cheetosyan/vs/excelmatcher/ExcelMatcher.csproj",
+        "packagesPath": "/home/cheetosyan/.nuget/packages/",
+        "outputPath": "/home/cheetosyan/vs/excelmatcher/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/cheetos/.nuget/NuGet/NuGet.Config"
+          "/home/cheetosyan/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
